@@ -1,0 +1,15 @@
+body{
+     --desativar: none;
+}
+
+/*
+(--desativar)
+*/
+
+.mainOn{
+     display: var();
+}
+
+.mainOff{
+     display: var(--desativar);
+}
