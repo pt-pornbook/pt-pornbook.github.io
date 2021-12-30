@@ -7,9 +7,9 @@ body{
 */
 
 .mainOn{
-     display: var(--desativar);
+     display: var();
 }
 
 .mainOff{
-     display: var();
+     display: var(--desativar);
 }
